@@ -1,0 +1,21 @@
+.planing > h1{
+    display: block;
+    color: #000;
+    padding-left: 1.0rem;
+    padding-top: 5rem;
+    margin-bottom: 1.5em;
+    float: left;
+    text-align: left;
+    height: 5px;
+}
+
+.item{
+    text-align: left;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-left: 40px;
+}
+
+.item > p{
+    padding-top: 20px;
+}
