@@ -5,6 +5,7 @@ import automatics_icon from '../assets/automatics.jpg';
 
 export default class Marketing extends Component{
     render(){
+        const data = this.props.data;
         return(
             <section className="marketing-section">
             <div className="container">
@@ -12,21 +13,21 @@ export default class Marketing extends Component{
                     <div className="col-lg-4">
                         <img class="rounded-circle" src={diler_icon} 
                             alt="Generic placeholder image" width="140" height="140" />
-                        <h2>Дилер в казино</h2>
-                        <p>Работник, который ведёт игру за столом в таких играх, как покер, рулетка, крэпс, блэкджэк, баккара, бой и т. д. Также дилер обязан поддерживать разговор с клиентом, объяснять правила игры, следить за выполнением правил казино клиентами.</p>
+                        <h2>{data.item1.title}</h2>
+                        <p>{data.item1.content}</p>
                         </div>
                     <div className="col-lg-4">
                         <img class="rounded-circle" src={officiant_icon} 
                             alt="Generic placeholder image" width="140" height="140" />
-                        <h2>Официант в казино/отель</h2>
-                        <p>Работник предприятий общественного питания, обслуживающий посетителей в ресторанах отелей и казино. В обязаности входит встреча посетителей, знакомство их с заведением, и доставка заказа поситителю.</p>
+                        <h2>{data.item2.title}</h2>
+                        <p>{data.item2.content}</p>
                         <p><a className="btn btn-secondary" href="#" role="button">Заполнить анкету</a></p>
                     </div>
                     <div className="col-lg-4">
                         <img class="rounded-circle" src={automatics_icon} 
                             alt="Generic placeholder image" width="140" height="140" />
-                        <h2>Работа с игровыми автоматами</h2>
-                        <p>Присмотр за работаспособностью игровых автоматов, поддержка в целосности, и необходимый ремонт.</p>
+                        <h2>{data.item3.title}</h2>
+                        <p>{data.item3.content}</p>
                     </div>
                 </div>
             </div>

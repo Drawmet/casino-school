@@ -5,46 +5,42 @@ import photo3 from '../assets/life-3.jpg';
 
 export default class Planing extends Component {
     render(){
+        const data = this.props.data;
         return(
             <section>
             <div className="container">
                 <div className="planing">
                     <div className="row">
                         <div className="col-sm-3 col-md-3">
-                            <h1 className="heading">Что такое школа казино?</h1>
+                            <h1 className="heading">{data.heading}</h1>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-sm-3 col-md-3 item">
-                            <h3>1 год</h3>
-                            <p className="lead">В течение этого солидного срока компания School Casino помогает 
-                                успешно добиваться поставленных целей и осуществлять мечты наших учеников о работе за границей.</p>
+                            <h3>{data.items[0].title}</h3>
+                            <p className="lead">{data.items[0].content}</p>
                         </div>
                         <div className="col-sm-3 col-md-3 item">
-                            <h3>10 стран</h3>
-                            <p className="lead">Компания School Casino тесно сотрудничает с работодателями Северного Кипра, 
-                            Марокко, Грузии, Мальты, Камбоджи, Египта, Болгарии, Германии, 
-                            Италии, Нигерии, Замбии (вакансии в сфере игорного бизнеса).</p>
+                            <h3>{data.items[1].title}</h3>
+                            <p className="lead">{data.items[1].content}</p>
                         </div>
                         <div className="col-sm-3 col-md-3 item">
-                            <h3>36 проекта</h3>
-                            <p className="lead">Компания School Casino тесно сотрудничает с хедлайнерами игорного бизнеса,
-                             поэтому у нас всегда есть работа для наших учеников.</p>
+                            <h3>{data.items[2].title}</h3>
+                            <p className="lead">{data.items[2].content}</p>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-sm-3 col-md-3 item">
-                            <h3>15 выпусков</h3>
-                            <p className="lead">Компания School Casino за всё время работы успела выпустить уже 20 потоков и 
-                                мы рады каждому ученику.</p>
+                            <h3>{data.items[3].title}</h3>
+                            <p className="lead">{data.items[3].content}</p>
                         </div>
                         <div className="col-sm-3 col-md-3 item">
-                            <h3>500 виз</h3>
-                            <p className="lead">Ежегодно при поддержке компании School Casino оформляется более 500 рабочих виз.</p>
+                            <h3>{data.items[4].title}</h3>
+                            <p className="lead">{data.items[4].content}</p>
                         </div>
                         <div className="col-sm-3 col-md-3 item">
-                            <h3>312 учеников</h3>
-                            <p className="lead">Сегодня компания School Casino – одна из ведущих рекрутинговых компаний по трудоустройству за границей.</p>
+                            <h3>{data.items[5].title}</h3>
+                            <p className="lead">{data.items[5].content}</p>
                         </div>
                     </div>
                 </div>

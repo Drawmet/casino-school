@@ -1,18 +1,8 @@
-
-.header-part{
-	margin: 1.5em 0;
-	}
-.top-nav{
-	float: right;
-	}
-.top-nav span{
-	display:none;
-}
-.top-nav ul li{
+.navbar-nav ul li{
 	display:inline-block;
 	margin: .5em 1em 0;
 	}
-.top-nav ul li a{
+.navbar-nav ul li a{
 	color:#97999B;
 	font-size:17px;
 	transition:.5s all;
@@ -21,15 +11,9 @@
 	-o-transition:.5s all;
 	-ms-transition:.5s all;
 	}
-.top-nav ul li a:hover{
+.navbar-nav ul li a:hover{
 	color: #5DC9C9;
 	text-decoration:none;
 	padding: 1.4em 0 0;
 	border-top: 3px solid #5DC9C9;
 	}
-		
-@media (max-width:900px){
-	.top-nav{
-		display: none;
-	}
-}

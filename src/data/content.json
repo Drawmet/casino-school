@@ -1,0 +1,210 @@
+[
+    {
+        "lang": "en",
+        "page": {
+            "menu": {
+                "home": "Home",
+                "contacts": "Contacts",
+                "faq": "FAQ",
+                "lang":"Language"
+            },
+            "banner": {
+                "slide1": {
+                "title": "Guarantee of employment.",
+                "content": "The casino school is an educational institution that guarantees employment for its graduates.",
+                "buttonCaption": "Join Now"
+                },
+                "slide2": {
+                    "title": "Certificate of completion.",
+                    "content": "The certificate confirms that its owner attended classes and listened to the appropriate course, which allows him to work in the future.",
+                    "buttonCaption": "Join Now"
+                },
+                "slide3": {
+                    "title": "We take care of all legal issues.",
+                    "content": "All questions with a visa, permission to leave, the company decides for you.",
+                    "buttonCaption": "Fill in the form"
+                }
+            },
+            "marketing": {
+                "item1": {
+                    "title": "Dealer in the casino",
+                    "content": "An employee who plays the game at a table in games such as poker, roulette, craps, blackjack, baccarat, battle, etc. Also, the dealer is obliged to maintain a conversation with the client, explain the rules of the game, follow the rules of the casino customers. "
+                },
+                "item2": {
+                    "title": "The waiter in the casino / hotel",
+                    "content": "An employee of public catering establishments serving visitors in the restaurants of hotels and casinos .The obligation is to meet visitors, get acquainted with the institution, and deliver the order to the customer."
+                },
+                "item3": {
+                    "title": "Work with slot machines",
+                    "content": "Look after the performance of gaming machines, support in the integrity, and necessary repairs."
+                }
+            },
+            "planing": {
+                "heading": "What is a casino school?",
+                "items": [{
+                    "title": "1 year",
+                    "content": "During this solid time, School Casino helps us successfully achieve our goals and fulfill our students' dreams of working abroad."
+                }, {
+                    "title": "10 countries",
+                    "content": "School Casino Company works closely with employers of Northern Cyprus, Morocco, Georgia, Malta, Cambodia, Egypt, Bulgaria, Germany, Italy, Nigeria, Zambia (vacancies in gambling)."
+                }, {
+                    "title": "36 projects",        
+                    "content": "School Casino Company works closely with headlining gambling business, so we always have work for our students."
+                }, {
+                    "title": "15 issues",
+                    "content": "School Casino has managed to release 20 streams for the whole time of its work and we are glad to each student."
+                }, {
+                    "title": "500 visas",
+                    "content": "More than 500 work visas are issued annually with the support of School Casino."
+                }, {
+                    "title": "312 pupils",
+                    "content": "Today School Camp Company is one of the leading recruiting companies for employment abroad."
+                }]
+            },
+            "timeline": {
+                "header": "Free training and why we work this way?",
+                "afterheader": "During the training, the company does not take money, but only signs a contract with you, that within two months we seek out a part of the salary in the form of tuition fees.",
+                "item1": {
+                    "title": "Fill in the application",
+                    "info": "Enter your details in the questionnaire or call the number."
+                },
+                "item2": {
+                    "title": "Questionnaire check",
+                    "info": "In order to present you in advance to several employers, we check the information for reliability."
+                },
+                "item3": {
+                    "title": "Start learning",
+                    "info": "Training takes place in our offices on the company's professional equipment."
+                },
+                "item4": {
+                    "title": "Final exam",
+                        "info": "Passing the exam, awarding the certificate of passing courses."
+                },
+                "item5": {
+                    "title": "Profiling of the invincible documents for the employer",
+                    "info": "We prepare the entire package of documents for the future employer and the opening of a work visa. Notifying the employer about the employee's readiness, you receive a ticket and take off. "
+                }
+            },
+            "faq": {
+                "header": "Frequently Asked Questions?",
+                "p": "Simple answers to the most common questions",
+                "items": [{
+                    "question": "Why did we do training courses?",
+                    "answer": "To create a professional school for training gambling personnel, so that young, promising, talented people will master such a prestigious profession."
+                }, {
+                    "question": "The Law of the School Casino?",
+                    "answer": "\" School Casino \" is an international center for recruiting and training personnel for the gambling industry.The croupier is playing a game in the casino - giving out the winners their winnings and taking the lost stakes .The dealer's duties include explaining the rules of the game, monitoring compliance all the rules in the game.The dealer's duties depend on the specifics of the game, but whatever it was, it's legal. "
+                }, {
+                    "question": "On a trip to another country, will I stay unemployed?",
+                    "answer": "We cooperate with the most reliable and trusted employers abroad, and this direction is personally one of the leaders of our company - a true professional of his business with many years of experience. We dare to assure you that our reputation is dear to us and you do not have to worry about your own security, because for us it is - above all. "
+                }, {
+                    "question": "Am I going to work properly?",
+                    "answer": "We train the croupier's profession and promote employment in the casinos of Northern Cyprus, Morocco, Georgia and many other countries. Graduates of the \"Casino-School\" have some of the best working conditions. They do not need to pay for air tickets, visas, accommodation and even The minimum wage at the same time is $ 750. All you need is to master the profession of the croupier and prepare to go abroad. "
+                }]
+            }
+        }  
+    },
+    {
+        "lang": "ru",
+        "page": {
+            "menu": {
+                "home": "Главная",
+                "contacts": "Контакты",
+                "faq": "Вопросы",
+                "lang":"Language"
+            },
+            "banner":{
+                "slides":[{
+                    "title":"Гарантия трудоустройства.",
+                    "content":"Школа казино учебное заведение, гарантирующее своим выпускникам трудоустройство.",
+                    "buttonCaption":"Вступить сейчас"
+                },{
+                    "title":"Сертификат о прохождении курса.",
+                    "content":"Сертификат подтверждает, что его обладатель посещал занятия и прослушал соответствующий курс, что позволяет трудостроить его в дальнейшем.",
+                    "buttonCaption":"Вступить сейчас"
+                },{
+                    "title":"Берем на себя все юридические вопросы.",
+                    "content":"Все вопросы с визой, разрешением на выезд, компания решает за вас.",
+                    "buttonCaption":"Заполнить анкету"
+                }]
+            },
+            "marketing":{
+                "item1":{
+                    "title":"Дилер в казино",
+                    "content":"Работник, который ведёт игру за столом в таких играх, как покер, рулетка, крэпс, блэкджэк, баккара, бой и т. д. Также дилер обязан поддерживать разговор с клиентом, объяснять правила игры, следить за выполнением правил казино клиентами."
+                },
+                "item2":{
+                    "title":"Официант в казино/отель",
+                    "content":"Работник предприятий общественного питания, обслуживающий посетителей в ресторанах отелей и казино. В обязаности входит встреча посетителей, знакомство их с заведением, и доставка заказа поситителю."
+                },
+                "item3":{
+                    "title":"Работа с игровыми автоматами",
+                    "content":"Присмотр за работоспособностью игровых автоматов, поддержка в целосности, и необходимый ремонт."
+                }
+            },
+            "planing":{
+                "heading":"Что такое школа казино?",
+                "items":[{
+                    "title":"1 год",
+                    "content":"В течение этого солидного срока компания School Casino помогает успешно добиваться поставленных целей и осуществлять мечты наших учеников о работе за границей."
+                },{
+                    "title":"10 стран",
+                    "content":"Компания School Casino тесно сотрудничает с работодателями Северного Кипра, Марокко, Грузии, Мальты, Камбоджи, Египта, Болгарии, Германии, Италии, Нигерии, Замбии (вакансии в сфере игорного бизнеса)."
+                },{
+                    "title":"36 проекта",
+                    "content":"Компания School Casino тесно сотрудничает с хедлайнерами игорного бизнеса, поэтому у нас всегда есть работа для наших учеников."
+                },{
+                    "title":"15 выпусков",
+                    "content":"Компания School Casino за всё время работы успела выпустить уже 20 потоков и мы рады каждому ученику."
+                },{
+                    "title":"500 виз",
+                    "content":"Ежегодно при поддержке компании School Casino оформляется более 500 рабочих виз."
+                },{
+                    "title":"312 учеников",
+                    "content":"Сегодня компания School Casino – одна из ведущих рекрутинговых компаний по трудоустройству за границей."
+                }]
+            },
+            "timeline":{
+                "header": "Бесплатное обучение и почему работаем именно так?",
+                "afterheader":"Во время обучения компания не берет денег, а лишь подписивает договор с вами, что в течении двух месецев изискаем часть зароботной платы в виде вознаграждения за обучение.",
+                "item1":{
+                    "title": "Заполните заявку",
+                    "info": "Укажите свои данные в анкете или позвоните по номеру."
+                },
+                "item2":{
+                    "title": "Проверка анкеты",
+                    "info": "Для того, чтобы заранее представить Вас нескольким работодателям, проверяем информацию на достоверность."
+                },
+                "item3":{
+                    "title": "Начало обучения",
+                    "info": "Обучение проходит в наших офисах на профессиональном оборудовании компании."
+                },
+                "item4":{
+                    "title": "Заключительный экзамен",
+                    "info": "Прохождение экзамена, вручение сертификата о прохождении курсов."
+                },
+                "item5":{
+                    "title": "Офомление неободимых документов для работодателя",
+                    "info": "Мы готовим весь пакет документов для будущего работодателя и открытия рабочей визы. Уведомляем нанимателя о готовности сотрудника. Вы получаете билет и вылетаете."
+                }
+            },
+            "faq":{
+                "header": "Часто задаваемые вопросы?",
+                "p": "Простые ответы на наиболее распространенные вопросы",
+                "items": [{
+                    "question": "Почему мы сделали курсы по обучению?",
+                    "answer": "Для создания профессиональной школы по обучению кадров игорного бизнеса. Чтобы молодые, перспективные, талантливые люди овладели такой престижной профессией."
+                },{
+                    "question": "Законость School Casino?",
+                    "answer": "\"School Casino\" - международный центр по подбору и подготовке персонала для игорной индустрии. Крупье ведет игру в казино – выдает участникам их выигрыш и забирает проигранные ставки. В обязанности крупье входит объяснение правил игры, осуществление контроля над соблюдением всех правил в процессе игры. Обязанности крупье зависят от специфики игры, но какой бы она не была – это легально."
+                },{
+                    "question": "В поездке в другую страну, не останусь ли я безработным?",
+                    "answer": "Мы сотрудничаем с самыми надежными и проверенными работодателями за рубежом. А это направление лично один из руководителей нашей компании – настоящий профессионал своего дела с многолетним стажем. Смеем Вас заверить, что нам дорога наша репутация и Вам не стоит беспокоиться о своей безопасности, потому что для нас она – превыше всего."
+                },{
+                    "question": "Точно ли я уеду работать?",
+                    "answer": "Мы обучаем профессии крупье и содействуем в трудоустройстве в казино Северного Кипра, Марокко, Грузии и многих других стран. Для выпускников школы «Марьяж» предоставлены одни из лучших условий труда. Им не нужно оплачивать авиабилеты, визу, проживание и даже питание. Минимальная заработная плата при этом составляет 750 долларов. Все, что нужно – освоить профессию крупье и готовиться к выезду за рубеж."
+                }]
+            }
+        }  
+    }
+]

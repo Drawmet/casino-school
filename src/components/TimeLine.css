@@ -1,6 +1,13 @@
 .time-line-block{
     background: linear-gradient(rgba(100,100,104,0.7),rgba(100,100,104,0.7)),url(../assets/back-1.jpg) repeat center top;
     color: rgb(255,255,255);
+    min-width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.time-line-section .opacity-header{
+    opacity: 0;
 }
 
 .header > h3 {
@@ -112,6 +119,10 @@
 .time-line .time span:first-child{top:-30px}
 
 .time-line .time span:last-child{top:-16px}
+
+.time-line .item{
+    opacity: 0;
+}
 
 .animated {
     animation-duration: 1s;

@@ -3,6 +3,14 @@ import './Banner.css';
 import banner1 from '../assets/banner.jpg';
 import banner2 from '../assets/banner2.jpg';
 import banner3 from '../assets/banner3.jpg';
+import {
+    Carousel, 
+    CarouselItem, 
+    CarouselControl, 
+    CarouselIndicators, 
+    CarouselCaption, 
+    Row
+} from 'reactstrap';
 
 
 export default class Banner extends Component{
@@ -11,68 +19,87 @@ export default class Banner extends Component{
         
         this.state={
             dataTarget: this.props.activeData,
+            activeIndex: 0,
+            slides:[{src:banner1},{src:banner2},{src:banner3}],
         }
     }
 
-    /*setTargetData (e){
+    onExiting = () => {
+        this.animating = true;
+    }
+
+    onExited = () => {
+        this.animating = false;
+    }
+
+    next = () => {
+        if(this.animating) return;
+        const nextIndex = this.state.activeIndex === this.state.slides.length - 1 ? 0 : this.state.activeIndex + 1;
+         this.setState({
+            activeIndex: nextIndex,
+        });
+    }
+
+    previous = () => {
+        if(this.animating) return;
+        const nextIndex = this.state.activeIndex === 0 ? this.state.slides.length - 1 : this.state.activeIndex - 1;
         this.setState({
-            dataTarget: e.target.dataset.data-slide-to,
+            activeIndex: nextIndex,
+        });
+    }
+
+    goToIndex = (newIndex) => {
+        if(this.animating) return;
+        this.setState({
+            activeIndex: newIndex,
         })
-        return e.target.className="active";
-    };*/
+    }
+
+    
     render(){
+        const {activeIndex} = this.state;
+        const data = this.props.data;
+        const items = [{
+            src:banner1,
+            ...data.slides[0],
+        },{
+            src:banner2,
+            ...data.slides[1],
+        },{
+            src:banner3,
+            ...data.slides[2],
+        }]
+        const slides = items.map((item) => {
+            return (
+                <CarouselItem
+                    onExiting={this.onExiting}
+                    onExited={this.onExited}
+                    key={item.src}
+                    src={item.src}
+                    altText={item.altText}
+                >
+                    <a href="/"><div className="opacity-shadow"></div></a>
+                    <CarouselCaption captionText={item.content} 
+                                     captionHeader={item.title}/>
+                </CarouselItem>
+            );
+        });
         return(
-        <section className="banner-section">
-        <div className="banner">
-            <div id="Carousel" className="carousel slide" data-ride="carousel">    
-                <ol className="carousel-indicators">
-                    <li data-target="#Corousel" data-slide-to="0" className="active"></li>
-                    <li data-target="#Corousel" data-slide-to="1"></li>
-                    <li data-target="#Corousel" data-slide-to="2"></li>
-                </ol>
-                <div className="carousel-inner" role="listbox">
-                    <div className="carousel-item active">
-                        <img className="d-block img-fluid opacity-shadow" src={banner1} alt="First slide" />
-                        <div className="container">
-                            <div className="carousel-caption d-none d-md-block text-left">
-                                <h1>Гарантия трудоустройства.</h1>
-                                <p>Школа казино учебное заведение, гарантирующее своим выпускникам трудоустройство.</p>
-                                <p><a className="btn btn-lg btn-primary" href="#" role="button">Вступить сейчас</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="carousel-item">
-                        <img className="d-block img-fluid opacity-shadow" src={banner2} alt="Second slide" />
-                        <div className="container">
-                            <div className="carousel-caption d-none d-md-block">
-                                <h1>Сертификат о прохождении курса.</h1>
-                                <p>Сертификат подтверждает, что его обладатель посещал занятия и прослушал соответствующий курс, что позволяет трудостроить его в дальнейшем.</p>
-                                <p><a className="btn btn-lg btn-primary" href="#" role="button">Узнать больше</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="carousel-item">
-                        <img className="d-block img-fluid opacity-shadow" src={banner3} alt="Third slide" />
-                            <div className="container">
-                                <div className="carousel-caption d-none d-md-block text-right">
-                                    <h1>Берем на себя все юридические вопросы.</h1>
-                                    <p>Все вопросы с визой, разрешением на выезд, компания решает за вас.</p>
-                                    <p><a className="btn btn-lg btn-primary" href="#" role="button">Заполнить анкету</a></p>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-                <a className="carousel-control-prev" href="#Carousel" role="button" data-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="sr-only">Previous</span>
-                </a>
-                <a className="carousel-control-next" href="#Carousel" role="button" data-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="sr-only">Next</span>
-                </a>
-            </div>
-        </div>
-        </section>
+            <section className="banner-section">
+                <Row>
+                <Carousel
+                    activeIndex={activeIndex}
+                    next={this.next}
+                    previous={this.previous}
+                >
+                    <CarouselIndicators items={this.state.slides} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
+                        {slides}
+                    <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
+                    <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
+                </Carousel>
+                </Row>
+            </section>
+        
         )
     }
 }
