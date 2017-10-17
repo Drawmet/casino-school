@@ -1,5 +1,5 @@
 .faq{
-    background: linear-gradient(rgba(100,100,104,0.7),rgba(100,100,104,0.7)),url(../assets/back-2.jpg) no-repeat center top;
+    background: linear-gradient(rgba(100,100,104,0.7),rgba(100,100,104,0.7)),url(../assets/back-2.jpg) repeat center top;
     color: rgb(255,255,255);
     min-height: 900px;
 

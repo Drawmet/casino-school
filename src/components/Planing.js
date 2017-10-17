@@ -1,7 +1,5 @@
 import React,{Component} from 'react';
 import './Planing.css';
-import photo1 from '../assets/life-1.svg';
-import photo3 from '../assets/life-3.jpg';
 
 export default class Planing extends Component {
     render(){

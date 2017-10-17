@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import darklogo from '../assets/dark-logo.png';
 import './App.css';
 import Header from '../components/Navba';
 import Banner from '../components/Banner';

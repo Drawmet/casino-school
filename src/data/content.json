@@ -9,21 +9,21 @@
                 "lang":"Language"
             },
             "banner": {
-                "slide1": {
+                "slides":[{
                 "title": "Guarantee of employment.",
                 "content": "The casino school is an educational institution that guarantees employment for its graduates.",
                 "buttonCaption": "Join Now"
                 },
-                "slide2": {
+                {
                     "title": "Certificate of completion.",
                     "content": "The certificate confirms that its owner attended classes and listened to the appropriate course, which allows him to work in the future.",
                     "buttonCaption": "Join Now"
                 },
-                "slide3": {
+                {
                     "title": "We take care of all legal issues.",
                     "content": "All questions with a visa, permission to leave, the company decides for you.",
                     "buttonCaption": "Fill in the form"
-                }
+                }]
             },
             "marketing": {
                 "item1": {
