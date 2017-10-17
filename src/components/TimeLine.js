@@ -20,6 +20,17 @@ export default class TimeLine extends Component{
 
     render(){
         const data = this.props.data;
+        const timelineItems = data.items.map((item,index)=>{
+            return(
+                <li className={this.state.styleAnimated}>
+                    <div className="title">{item.title}</div>
+                    <div className="info">{item.info}</div>
+                    <div className="time">
+                        <span>{index+1}.</span>
+                    </div>
+                </li>
+            )
+        })
         return(
             <section className="time-line-section" onMouseOver={this.onMouseOver}>
             <div className="time-line-block">
@@ -29,46 +40,7 @@ export default class TimeLine extends Component{
                 </div>
                 <div className="time-line">
                     <ul>
-                        <li className={this.state.styleAnimated}>
-                            <span></span>
-                            <div className="title">{data.item1.title}</div>
-                            <div className="info">{data.item1.info}</div>
-                            <div className="time">
-                                <span>1.</span>
-                            </div>
-                        </li>
-                        <li className={this.state.styleAnimated}>
-                            <span></span>
-                            <div className="title">{data.item2.title}</div>
-                            <div className="info">{data.item2.info}</div>
-                            <div className="time">
-                                <span>2.</span>
-                            </div>
-                        </li>
-                        <li className={this.state.styleAnimated}>
-                            <span></span>
-                            <div className="title">{data.item3.title}</div>
-                            <div className="info">{data.item3.info}</div>
-                            <div className="time">
-                                <span>3.</span>
-                            </div>
-                        </li>
-                        <li className={this.state.styleAnimated}>
-                            <span></span>
-                            <div className="title">{data.item4.title}</div>
-                            <div className="info">{data.item4.info}</div>
-                            <div className="time">
-                                <span>4.</span>
-                            </div>
-                        </li>
-                        <li className={this.state.styleAnimated}>
-                            <span></span>
-                            <div className="title">{data.item5.title}</div>
-                            <div className="info">{data.item5.info}</div>
-                            <div className="time">
-                                <span>5.</span>
-                            </div>
-                        </li>
+                        {timelineItems}
                     </ul>
                 </div>
             </div>

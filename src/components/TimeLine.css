@@ -25,7 +25,7 @@
 
 .time-line{
     margin:0 15%;
-    height: 630px;
+    height: 100%;
     overflow: hidden;
     padding: 10px 0 40px 60px
 }
@@ -168,6 +168,7 @@
     .time-line-block{
         background: linear-gradient(rgba(100,100,104,0.7),rgba(100,100,104,0.7)),url(../assets/back-1.jpg) repeat center top;
         color: rgb(255,255,255);
+        height: 100%;
     }
 
     .header > p{
@@ -180,7 +181,7 @@
 
     .time-line{
         margin:0 15%;
-        height: 1000px;
+        height: 100%;
         overflow: hidden;
         padding: 5px 0 10px 10px
     }

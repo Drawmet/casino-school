@@ -6,6 +6,25 @@ import photo3 from '../assets/life-3.jpg';
 export default class Planing extends Component {
     render(){
         const data = this.props.data;
+        const items = data.items.map((item, index) => {
+            return(
+                <div className="col-sm-3 col-md-3 item">
+                    <h3>{item.title}</h3>
+                    <p className="lead">{item.content}</p>
+                </div>
+                )
+        })
+        const itemsBlock = items.map((item, index) =>{
+            if(index%3===0)
+            return(
+                <div className="row">
+                    {items[index]}
+                    {items[index+1]}
+                    {items[index+2]}
+                </div>
+                )
+            return;
+        })
         return(
             <section>
             <div className="container">
@@ -15,34 +34,7 @@ export default class Planing extends Component {
                             <h1 className="heading">{data.heading}</h1>
                         </div>
                     </div>
-                    <div className="row">
-                        <div className="col-sm-3 col-md-3 item">
-                            <h3>{data.items[0].title}</h3>
-                            <p className="lead">{data.items[0].content}</p>
-                        </div>
-                        <div className="col-sm-3 col-md-3 item">
-                            <h3>{data.items[1].title}</h3>
-                            <p className="lead">{data.items[1].content}</p>
-                        </div>
-                        <div className="col-sm-3 col-md-3 item">
-                            <h3>{data.items[2].title}</h3>
-                            <p className="lead">{data.items[2].content}</p>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-sm-3 col-md-3 item">
-                            <h3>{data.items[3].title}</h3>
-                            <p className="lead">{data.items[3].content}</p>
-                        </div>
-                        <div className="col-sm-3 col-md-3 item">
-                            <h3>{data.items[4].title}</h3>
-                            <p className="lead">{data.items[4].content}</p>
-                        </div>
-                        <div className="col-sm-3 col-md-3 item">
-                            <h3>{data.items[5].title}</h3>
-                            <p className="lead">{data.items[5].content}</p>
-                        </div>
-                    </div>
+                    {itemsBlock}
                 </div>
             </div>
             </section>

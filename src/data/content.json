@@ -64,26 +64,26 @@
             "timeline": {
                 "header": "Free training and why we work this way?",
                 "afterheader": "During the training, the company does not take money, but only signs a contract with you, that within two months we seek out a part of the salary in the form of tuition fees.",
-                "item1": {
+                "items": [{
                     "title": "Fill in the application",
                     "info": "Enter your details in the questionnaire or call the number."
                 },
-                "item2": {
+                {
                     "title": "Questionnaire check",
                     "info": "In order to present you in advance to several employers, we check the information for reliability."
                 },
-                "item3": {
+                {
                     "title": "Start learning",
                     "info": "Training takes place in our offices on the company's professional equipment."
                 },
-                "item4": {
+                {
                     "title": "Final exam",
                         "info": "Passing the exam, awarding the certificate of passing courses."
                 },
-                "item5": {
+                {
                     "title": "Profiling of the invincible documents for the employer",
                     "info": "We prepare the entire package of documents for the future employer and the opening of a work visa. Notifying the employer about the employee's readiness, you receive a ticket and take off. "
-                }
+                }]
             },
             "faq": {
                 "header": "Frequently Asked Questions?",
@@ -167,26 +167,26 @@
             "timeline":{
                 "header": "Бесплатное обучение и почему работаем именно так?",
                 "afterheader":"Во время обучения компания не берет денег, а лишь подписивает договор с вами, что в течении двух месецев изискаем часть зароботной платы в виде вознаграждения за обучение.",
-                "item1":{
+                "items":[{
                     "title": "Заполните заявку",
                     "info": "Укажите свои данные в анкете или позвоните по номеру."
                 },
-                "item2":{
+                {
                     "title": "Проверка анкеты",
                     "info": "Для того, чтобы заранее представить Вас нескольким работодателям, проверяем информацию на достоверность."
                 },
-                "item3":{
+                {
                     "title": "Начало обучения",
                     "info": "Обучение проходит в наших офисах на профессиональном оборудовании компании."
                 },
-                "item4":{
+                {
                     "title": "Заключительный экзамен",
                     "info": "Прохождение экзамена, вручение сертификата о прохождении курсов."
                 },
-                "item5":{
+                {
                     "title": "Офомление неободимых документов для работодателя",
                     "info": "Мы готовим весь пакет документов для будущего работодателя и открытия рабочей визы. Уведомляем нанимателя о готовности сотрудника. Вы получаете билет и вылетаете."
-                }
+                }]
             },
             "faq":{
                 "header": "Часто задаваемые вопросы?",
