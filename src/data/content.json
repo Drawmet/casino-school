@@ -26,17 +26,21 @@
                 }]
             },
             "marketing": {
+                "button": "Fill in the application",
                 "item1": {
                     "title": "Dealer in the casino",
-                    "content": "An employee who plays the game at a table in games such as poker, roulette, craps, blackjack, baccarat, battle, etc. Also, the dealer is obliged to maintain a conversation with the client, explain the rules of the game, follow the rules of the casino customers. "
+                    "content": "An employee who plays the game at a table in games such as poker, roulette, craps, blackjack, baccarat, battle, etc. Also, the dealer is obliged to maintain a conversation with the client, explain the rules of the game, follow the rules of the casino customers. ",
+                    "img":"/static/media/diler.ba0a5e14.jpg"
                 },
                 "item2": {
                     "title": "The waiter in the casino / hotel",
-                    "content": "An employee of public catering establishments serving visitors in the restaurants of hotels and casinos .The obligation is to meet visitors, get acquainted with the institution, and deliver the order to the customer."
+                    "content": "An employee of public catering establishments serving visitors in the restaurants of hotels and casinos .The obligation is to meet visitors, get acquainted with the institution, and deliver the order to the customer.",
+                    "img":"/static/media/officiant.aa9f86ff.jpg"
                 },
                 "item3": {
                     "title": "Work with slot machines",
-                    "content": "Look after the performance of gaming machines, support in the integrity, and necessary repairs."
+                    "content": "Look after the performance of gaming machines, support in the integrity, and necessary repairs.",
+                    "img":"/static/media/automatics.3a61175b.jpg"
                 }
             },
             "planing": {
@@ -100,6 +104,9 @@
                 }, {
                     "question": "Am I going to work properly?",
                     "answer": "We train the croupier's profession and promote employment in the casinos of Northern Cyprus, Morocco, Georgia and many other countries. Graduates of the \"Casino-School\" have some of the best working conditions. They do not need to pay for air tickets, visas, accommodation and even The minimum wage at the same time is $ 750. All you need is to master the profession of the croupier and prepare to go abroad. "
+                }, {
+                    "question": "Do I have experience in a casino? ",
+                    "answer": "Then you can leave another questionnaire and contact the svami to confirm the information. "
                 }]
             }
         }  
@@ -129,18 +136,20 @@
                 }]
             },
             "marketing":{
-                "item1":{
+                "button": "Fill in the application",
+                "items":[{
                     "title":"Дилер в казино",
-                    "content":"Работник, который ведёт игру за столом в таких играх, как покер, рулетка, крэпс, блэкджэк, баккара, бой и т. д. Также дилер обязан поддерживать разговор с клиентом, объяснять правила игры, следить за выполнением правил казино клиентами."
-                },
-                "item2":{
+                    "content":"Работник, который ведёт игру за столом в таких играх, как покер, рулетка, крэпс, блэкджэк, баккара, бой и т. д. Также дилер обязан поддерживать разговор с клиентом, объяснять правила игры, следить за выполнением правил казино клиентами.",
+                    "img":"/static/media/diler.ba0a5e14.jpg"
+                },{
                     "title":"Официант в казино/отель",
-                    "content":"Работник предприятий общественного питания, обслуживающий посетителей в ресторанах отелей и казино. В обязаности входит встреча посетителей, знакомство их с заведением, и доставка заказа поситителю."
-                },
-                "item3":{
+                    "content":"Работник предприятий общественного питания, обслуживающий посетителей в ресторанах отелей и казино. В обязаности входит встреча посетителей, знакомство их с заведением, и доставка заказа поситителю.",
+                    "img":"/static/media/officiant.aa9f86ff.jpg"
+                },{
                     "title":"Работа с игровыми автоматами",
-                    "content":"Присмотр за работоспособностью игровых автоматов, поддержка в целосности, и необходимый ремонт."
-                }
+                    "content":"Присмотр за работоспособностью игровых автоматов, поддержка в целосности, и необходимый ремонт.",
+                    "img":"/static/media/automatics.3a61175b.jpg"
+                }]
             },
             "planing":{
                 "heading":"Что такое школа казино?",
@@ -203,6 +212,9 @@
                 },{
                     "question": "Точно ли я уеду работать?",
                     "answer": "Мы обучаем профессии крупье и содействуем в трудоустройстве в казино Северного Кипра, Марокко, Грузии и многих других стран. Для выпускников школы «Марьяж» предоставлены одни из лучших условий труда. Им не нужно оплачивать авиабилеты, визу, проживание и даже питание. Минимальная заработная плата при этом составляет 750 долларов. Все, что нужно – освоить профессию крупье и готовиться к выезду за рубеж."
+                },{
+                    "question": "У меня есть опыт работы в казино?",
+                    "answer": "Тогда вы можете оставить другую анкету и свами свяжуться для потверждения информации."
                 }]
             }
         }  

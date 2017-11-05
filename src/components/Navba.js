@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavLink, NavItem, NavDropdown,
             DropdownToggle, DropdownItem, DropdownMenu} from 'reactstrap';
-import logo from '../assets/example-logo.png'; 
+import logo from '../assets/logo-schoolcasino.png'; 
 
 export default class Navba extends Component {
     constructor(props) {
@@ -11,7 +11,7 @@ export default class Navba extends Component {
           dropDownOpen: false,
           color: this.props.color,
           dark: this.props.dark,
-          light: this.props.light,
+          light: this.props.light
         };
       }
 
@@ -32,7 +32,7 @@ export default class Navba extends Component {
         
         return (
             <Navbar color={this.state.color} dark={this.state.dark} light={this.state.light} expand="md">
-              <NavbarBrand href="/"><img src={logo}/></NavbarBrand>
+              <NavbarBrand href="/"><img className="logo" src={logo} alt="Logo"/></NavbarBrand>
                 <NavbarToggler onClick={this.toggleCollapse} />
                 <Collapse isOpen={this.state.isOpen} navbar>
                     <Nav className="ml-auto" navbar>
