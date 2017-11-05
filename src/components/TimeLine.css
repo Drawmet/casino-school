@@ -274,3 +274,7 @@
     
     .time-line .time span:last-child{top:-12px}
 }
+
+#contacts a{
+    color: white;
+}

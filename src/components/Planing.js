@@ -20,8 +20,7 @@ export default class Planing extends Component {
                     {items[index+1]}
                     {items[index+2]}
                 </div>
-                )
-            return;
+                );
         })
         return(
             <section>

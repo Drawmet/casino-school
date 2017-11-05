@@ -37,10 +37,10 @@ export default class Navba extends Component {
                 <Collapse isOpen={this.state.isOpen} navbar>
                     <Nav className="ml-auto" navbar>
                         <NavItem active>
-                            <NavLink href="/">{data.home}</NavLink>
+                            <NavLink href="#marketing">{data.home}</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/">{data.faq}</NavLink>
+                            <NavLink href="#faq">{data.faq}</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href="/">{data.contacts}</NavLink>

@@ -3,7 +3,7 @@
         "lang": "en",
         "page": {
             "menu": {
-                "home": "Home",
+                "home": "School",
                 "contacts": "Contacts",
                 "faq": "FAQ",
                 "lang":"Language"
@@ -27,21 +27,24 @@
             },
             "marketing": {
                 "button": "Fill in the application",
-                "item1": {
+                "anotherItem":{
+                    "title": "For casino employees",
+                    "content": "You worked in a casino, you have practice with the work of a dealer, hotel employee or slot machines.",
+                    "img":"/static/media/work.44882ecf.jpg"
+                },
+                "items": [{
                     "title": "Dealer in the casino",
                     "content": "An employee who plays the game at a table in games such as poker, roulette, craps, blackjack, baccarat, battle, etc. Also, the dealer is obliged to maintain a conversation with the client, explain the rules of the game, follow the rules of the casino customers. ",
                     "img":"/static/media/diler.ba0a5e14.jpg"
-                },
-                "item2": {
+                },{
                     "title": "The waiter in the casino / hotel",
                     "content": "An employee of public catering establishments serving visitors in the restaurants of hotels and casinos .The obligation is to meet visitors, get acquainted with the institution, and deliver the order to the customer.",
                     "img":"/static/media/officiant.aa9f86ff.jpg"
-                },
-                "item3": {
+                },{
                     "title": "Work with slot machines",
                     "content": "Look after the performance of gaming machines, support in the integrity, and necessary repairs.",
                     "img":"/static/media/automatics.3a61175b.jpg"
-                }
+                }]
             },
             "planing": {
                 "heading": "What is a casino school?",
@@ -106,7 +109,7 @@
                     "answer": "We train the croupier's profession and promote employment in the casinos of Northern Cyprus, Morocco, Georgia and many other countries. Graduates of the \"Casino-School\" have some of the best working conditions. They do not need to pay for air tickets, visas, accommodation and even The minimum wage at the same time is $ 750. All you need is to master the profession of the croupier and prepare to go abroad. "
                 }, {
                     "question": "Do I have experience in a casino? ",
-                    "answer": "Then you can leave another questionnaire and contact the svami to confirm the information. "
+                    "answer": "Then you can leave another questionnaire behind the link https://goo.gl/forms/kg9oriEkwibXLlT72 and contact you for confirmation of the information or you can call +380 734 264 773."
                 }]
             }
         }  
@@ -115,7 +118,7 @@
         "lang": "ru",
         "page": {
             "menu": {
-                "home": "Главная",
+                "home": "Школа",
                 "contacts": "Контакты",
                 "faq": "Вопросы",
                 "lang":"Language"
@@ -136,7 +139,12 @@
                 }]
             },
             "marketing":{
-                "button": "Fill in the application",
+                "button": "Заполните анкету",
+                "anotherItem":{
+                    "title":"Для работников казино",
+                    "content":"Вы работали в казино, имеете практику с работой дилера, работника гостинницы или игровыми автоматами.",
+                    "img":"/static/media/work.44882ecf.jpg"
+                },
                 "items":[{
                     "title":"Дилер в казино",
                     "content":"Работник, который ведёт игру за столом в таких играх, как покер, рулетка, крэпс, блэкджэк, баккара, бой и т. д. Также дилер обязан поддерживать разговор с клиентом, объяснять правила игры, следить за выполнением правил казино клиентами.",
@@ -214,7 +222,7 @@
                     "answer": "Мы обучаем профессии крупье и содействуем в трудоустройстве в казино Северного Кипра, Марокко, Грузии и многих других стран. Для выпускников школы «Марьяж» предоставлены одни из лучших условий труда. Им не нужно оплачивать авиабилеты, визу, проживание и даже питание. Минимальная заработная плата при этом составляет 750 долларов. Все, что нужно – освоить профессию крупье и готовиться к выезду за рубеж."
                 },{
                     "question": "У меня есть опыт работы в казино?",
-                    "answer": "Тогда вы можете оставить другую анкету и свами свяжуться для потверждения информации."
+                    "answer": "Тогда вы можете оставить другую анкету за ссылкой https://goo.gl/forms/kg9oriEkwibXLlT72 и с вами свяжуться для потверждения информации или же узнать по телефону +380 734 264 773."
                 }]
             }
         }  

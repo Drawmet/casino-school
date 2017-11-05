@@ -15,7 +15,7 @@ export default class Faq extends Component{
             );
         })
         return(
-            <section className="faq">
+            <section className="faq" id="faq">
                 <div className="container heading-faq">
                     <h1 class="rte-heading text-center">{data.header}</h1>
                     <h4 className="p1 text-center">{data.p}</h4>
