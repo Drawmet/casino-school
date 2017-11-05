@@ -86,7 +86,6 @@ export default class Banner extends Component{
         });
         return(
             <section className="banner-section">
-                <Row>
                 <Carousel
                     activeIndex={activeIndex}
                     next={this.next}
@@ -97,7 +96,6 @@ export default class Banner extends Component{
                     <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
                     <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
                 </Carousel>
-                </Row>
             </section>
         
         )

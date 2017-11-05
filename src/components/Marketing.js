@@ -3,13 +3,14 @@ import '../assets/diler.jpg';
 import '../assets/officiant.jpg';
 import '../assets/automatics.jpg';
 import '../assets/work.jpg';
+import './Marketing.css'
 
 export default class Marketing extends Component{
     render(){
         const data = this.props.data;
         let items = data.items.map((item)=>{
             return (
-                <div className="col-lg-3">
+                <div className="col-lg-3 marketing-item">
                     <img class="rounded-circle" src={item.img} 
                         alt={item.title} width="140" height="140" />
                     <h2>{item.title}</h2>
@@ -23,7 +24,7 @@ export default class Marketing extends Component{
                 <div className="container">
                     <div className="row">
                         {items}
-                        <div className="col-lg-3 center-block">
+                        <div className="col-lg-3 marketing-item">
                             <img class="rounded-circle" src={data.anotherItem.img} 
                                 alt={data.anotherItem.title} width="140" height="140" />
                             <h2>{data.anotherItem.title}</h2>
