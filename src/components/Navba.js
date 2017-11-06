@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavLink, NavItem, NavDropdown,
             DropdownToggle, DropdownItem, DropdownMenu} from 'reactstrap';
-import logo from '../assets/logo-schoolcasino.png'; 
+import logo from '../assets/logo-schoolcasino.png';
 
 export default class Navba extends Component {
     constructor(props) {
@@ -17,7 +17,7 @@ export default class Navba extends Component {
 
       toggleDropdown = () => {
         this.setState({
-          dropDownOpen: !this.state.dropDownOpen,   
+          dropDownOpen: !this.state.dropDownOpen,
         });
       }
 
@@ -35,7 +35,7 @@ export default class Navba extends Component {
               <NavbarBrand href="/"><img className="logo" src={logo} alt="Logo"/></NavbarBrand>
                 <NavbarToggler onClick={this.toggleCollapse} />
                 <Collapse isOpen={this.state.isOpen} navbar>
-                <h3 className="text-white nav-header">Premier School Casino</h3>
+                <h3 className="text-white nav-header">Premier Academy Casino</h3>
                     <Nav className="ml-auto" navbar>
                         <NavItem active>
                             <NavLink href="#marketing">{data.home}</NavLink>
