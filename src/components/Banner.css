@@ -1,7 +1,7 @@
 
   .banner-section .opacity-shadow{
     background: rgba(100,100,104,0.5);
-    position:fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;

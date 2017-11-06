@@ -31,7 +31,7 @@ export default class Navba extends Component {
         let switchLanguage = this.props.switchLanguage;
         
         return (
-            <Navbar color={this.state.color} dark={this.state.dark} light={this.state.light} expand="md">
+            <Navbar className="fix_navbar" color={this.state.color} dark={this.state.dark} light={this.state.light} expand="md">
               <NavbarBrand href="/"><img className="logo" src={logo} alt="Logo"/></NavbarBrand>
                 <NavbarToggler onClick={this.toggleCollapse} />
                 <Collapse isOpen={this.state.isOpen} navbar>

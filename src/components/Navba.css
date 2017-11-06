@@ -5,6 +5,7 @@ nav{
 }
 
 
+
 .navbar-nav ul li{
 	display:inline-block;
 	margin: .5em 1em 0;
@@ -19,15 +20,3 @@ nav{
 	-o-transition:.5s all;
 	-ms-transition:.5s all;
 	}
-.navbar-nav ul li a:hover{
-	color: #5DC9C9;
-	text-decoration:none;
-	padding: 1.4em 0 0;
-	border-top: 3px solid #5DC9C9;
-	}
-
-@media (max-width: 700px){
-	.navbar-header{
-		display: none;
-	}
-}
