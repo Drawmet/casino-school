@@ -19,6 +19,13 @@ export default class TimeLine extends Component{
         });
     }
 
+    componentWillMount = () =>{
+        this.setState({
+            styleAnimated: 'animated fadeIn',
+            styleHeaderAnimated: 'animated fadeIn header'
+        })
+    }
+
     onMouseOver = () =>{
         this.setState({
             styleAnimated: 'animated fadeIn',
@@ -54,7 +61,7 @@ export default class TimeLine extends Component{
             );
         })
         return(
-            <section className="time-line-section" onMouseOver={this.onMouseOver}>
+            <section className="time-line-section" >
             <div className="time-line-block">
                 <div className={this.state.styleHeaderAnimated}>
                     <h3>{data.header}</h3>
