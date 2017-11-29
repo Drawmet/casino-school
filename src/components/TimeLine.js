@@ -38,7 +38,7 @@ export default class TimeLine extends Component{
         const timelineItems = data.items.map((item,index)=>{
             if(index===0)
             return(
-                <li className={this.state.styleAnimated}>
+                <li className={this.state.styleAnimated} key={'timeline_item_' + index}>
                     <div className="title">{item.title}</div>
                     <div className="info" id="contacts" onMouseOver={this.toggle}><a href="https://goo.gl/forms/hutOzwB0TQjmIcOr2">{item.info}</a></div>
                     <div className="time">
@@ -51,7 +51,7 @@ export default class TimeLine extends Component{
                 </li>
             );
             return(
-                <li className={this.state.styleAnimated}>
+                <li className={this.state.styleAnimated} key={'timeline_item_' + index}>
                     <div className="title">{item.title}</div>
                     <div className="info">{item.info}</div>
                     <div className="time">

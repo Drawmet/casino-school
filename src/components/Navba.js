@@ -37,7 +37,7 @@ export default class Navba extends Component {
                 <Collapse isOpen={this.state.isOpen} navbar>
                 <h3 className="text-white nav-header">Premier Academy Casino</h3>
                     <Nav className="ml-auto" navbar>
-                        <NavItem active>
+                        <NavItem>
                             <NavLink href="#marketing">{data.home}</NavLink>
                         </NavItem>
                         <NavItem>

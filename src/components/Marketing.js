@@ -8,10 +8,10 @@ import './Marketing.css'
 export default class Marketing extends Component{
     render(){
         const data = this.props.data;
-        let items = data.items.map((item)=>{
+        let items = data.items.map((item, index)=>{
             return (
-                <div className="col-lg-3 marketing-item">
-                    <img class="rounded-circle" src={item.img} 
+                <div className="col-lg-3 marketing-item" key={"marketing_item_" + index}>
+                    <img className="rounded-circle" src={item.img} 
                         alt={item.title} width="140" height="140" />
                     <h2>{item.title}</h2>
                     <p>{item.content}</p>
@@ -25,7 +25,7 @@ export default class Marketing extends Component{
                     <div className="row">
                         {items}
                         <div className="col-lg-3 marketing-item">
-                            <img class="rounded-circle" src={data.anotherItem.img} 
+                            <img className="rounded-circle" src={data.anotherItem.img} 
                                 alt={data.anotherItem.title} width="140" height="140" />
                             <h2>{data.anotherItem.title}</h2>
                             <p>{data.anotherItem.content}</p>
