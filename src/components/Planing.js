@@ -12,8 +12,7 @@ export default class Planing extends Component {
                 </div>
                 )
         })
-        const itemsBlock = items.map((item, index) =>{
-            if(index%3===0)
+        const itemsBlock = items.filter((item, index) => index%3 === 0).map((item) =>{
             return(
                 <div className="row">
                     {items[index]}
