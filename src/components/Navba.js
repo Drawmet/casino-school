@@ -44,7 +44,7 @@ export default class Navba extends Component {
                             <NavLink href="#faq">{data.faq}</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/">{data.contacts}</NavLink>
+                            <NavLink href="#contacts">{data.contacts}</NavLink>
                         </NavItem>
                         <NavDropdown isOpen={this.state.dropDownOpen} toggle={this.toggleDropdown}>
                           <DropdownToggle nav caret>

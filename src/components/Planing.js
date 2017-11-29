@@ -22,7 +22,7 @@ export default class Planing extends Component {
                 );
         })
         return(
-            <section>
+            <section className="planning" >
             <div className="container">
                 <div className="planing">
                     <div className="row">

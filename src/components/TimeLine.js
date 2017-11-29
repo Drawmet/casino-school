@@ -40,7 +40,7 @@ export default class TimeLine extends Component{
             return(
                 <li className={this.state.styleAnimated} key={'timeline_item_' + index}>
                     <div className="title">{item.title}</div>
-                    <div className="info" id="contacts" onMouseOver={this.toggle}><a href="https://goo.gl/forms/hutOzwB0TQjmIcOr2">{item.info}</a></div>
+                    <div className="info" id="contact" onMouseOver={this.toggle}><a href="https://goo.gl/forms/hutOzwB0TQjmIcOr2">{item.info}</a></div>
                     <div className="time">
                         <span>{index+1}.</span>
                     </div>
