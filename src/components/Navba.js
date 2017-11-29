@@ -32,7 +32,7 @@ export default class Navba extends Component {
         
         return (
             <Navbar className="fix_navbar" color={this.state.color} dark={this.state.dark} light={this.state.light} expand="md">
-              <NavbarBrand href="/"><img className="logo" src={logo} alt="Logo"/></NavbarBrand>
+              <NavbarBrand href="/"><img className="logo" src={logo} alt="Logo" width="100" height="100"/></NavbarBrand>
                 <NavbarToggler onClick={this.toggleCollapse} />
                 <Collapse isOpen={this.state.isOpen} navbar>
                 <h3 className="text-white nav-header">Premier Academy Casino</h3>

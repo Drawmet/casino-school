@@ -8,6 +8,7 @@ import Planing from '../components/Planing';
 import Faq from '../components/Faq';
 import {connect} from 'react-redux';
 import actions from '../actions/actions';
+import Contacts from '../components/Contacts';
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
           <TimeLine data={content.page.timeline}/>
           <Planing data={content.page.planing}/>
           <Faq data={content.page.faq}/>
+          <Contacts />
       </div>
     );
   }
