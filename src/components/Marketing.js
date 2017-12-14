@@ -15,7 +15,7 @@ export default class Marketing extends Component{
                         alt={item.title} width="140" height="140" />
                     <h2>{item.title}</h2>
                     <p>{item.content}</p>
-                    <p><a className="btn btn-secondary" href="https://goo.gl/forms/hutOzwB0TQjmIcOr2" role="button">{data.button}</a></p>
+                    <p><a className="btn btn-secondary" href={item.link} role="button">{data.button}</a></p>
                 </div>
             )
         });

@@ -148,15 +148,18 @@
                 "items":[{
                     "title":"Дилер в казино",
                     "content":"Работник, который ведёт игру за столом в таких играх, как покер, рулетка, крэпс, блэкджэк, баккара, бой и т. д. Также дилер обязан поддерживать разговор с клиентом, объяснять правила игры, следить за выполнением правил казино клиентами.",
-                    "img":"/static/media/diler.ba0a5e14.jpg"
+                    "img":"/static/media/diler.ba0a5e14.jpg",
+                    "link":"https://goo.gl/forms/hutOzwB0TQjmIcOr2"
                 },{
                     "title":"Официант в казино/отель",
                     "content":"Работник предприятий общественного питания, обслуживающий посетителей в ресторанах отелей и казино. В обязаности входит встреча посетителей, знакомство их с заведением, и доставка заказа поситителю.",
-                    "img":"/static/media/officiant.aa9f86ff.jpg"
+                    "img":"/static/media/officiant.aa9f86ff.jpg",
+                    "link":"https://goo.gl/forms/pcpMCgwqbn2UBLWq1"
                 },{
                     "title":"Работа с игровыми автоматами",
                     "content":"Присмотр за работоспособностью игровых автоматов, поддержка в целосности, и необходимый ремонт.",
-                    "img":"/static/media/automatics.3a61175b.jpg"
+                    "img":"/static/media/automatics.3a61175b.jpg",
+                    "link":"https://goo.gl/forms/pcpMCgwqbn2UBLWq1"
                 }]
             },
             "planing":{
